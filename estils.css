@@ -1,0 +1,48 @@
+
+
+ul{
+  width: 880px;
+  background-color: ;
+  overflow: hidden; /* contraresta el float */
+  /* overflow: visible;  esconde
+    overflow: scroll;   esconde pero tiene bara para scrollear*/
+    margin: auto;
+    padding: 0;
+}
+
+li{
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-color: orange;
+  float: left;
+}
+
+.nofloat{
+  clear: both;
+}
+
+
+#a01{
+  background-image: url(img/a01.png);
+  background-size: contain;
+  background-image: no-repeat;
+}
+
+#a02{
+  background-image: url(img/a02.png);
+  background-size: contain;
+  background-image: no-repeat;
+}
+
+#a03{
+  background-image: url(img/a03.png);
+  background-size: contain;
+  background-image: no-repeat;
+}
+#a04{
+  background-image: url(img/a04.png);
+  background-size: contain;
+  background-image: no-repeat;
+}
