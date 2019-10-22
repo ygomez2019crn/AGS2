@@ -1,0 +1,39 @@
+#fondo{
+  background-color: green;
+  width: 800px;
+  height: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
+.negro{
+  height: 100px;
+  width: 100px;
+  float: left;
+  background-color: orange;
+  background-image: linear-gradient(black,grey );
+
+}
+
+.blanco{
+  height: 100px;
+  width: 100px;
+  float: left;
+  background-image: linear-gradient(ivory,white);
+
+}
+
+p{
+  background-color: white;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin: auto;
+  position: relative;
+  top: 9px;
+  box-shadow: 2px 2px 5px black,
+              inset 1px 1px 10px grey;
+
+
+}
