@@ -1,0 +1,17 @@
+
+div{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(176, 241, 160);
+  text-align: center;
+  font-size: 25px;
+  color: white;
+
+}
+
+.prova{
+  background-color: tomato;
+  position: absolute;
+  right: 500px;
+  top: 150px;
+}
