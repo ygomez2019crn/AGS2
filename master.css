@@ -88,3 +88,15 @@ a{
   background-size: cover;
   background-image: no-repeat;
 }
+
+#quinta{
+  background-image: url(img/a05.png);
+  background-size: cover;
+  background-image: no-repeat;
+}
+
+#sexta{
+  background-image: url(img/a06.png);
+  background-size: cover;
+  background-image: no-repeat;
+}
