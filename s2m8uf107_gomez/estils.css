@@ -1,0 +1,64 @@
+body{
+  font-size: 1rem;
+}
+  p{
+  font-size: 1rem;;
+  line-height: 32px;
+  text-align: justify;
+}
+
+img{
+  width: 100px;
+}
+
+div{
+  width: 800px;
+  margin: auto;
+}
+
+.i{
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+
+}
+
+.d{
+  float: right;
+  margin-left: 20px;
+}
+
+.cap{
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.inicial{
+  text-indent: -16px;
+}
+
+.inicial::first-letter{
+  color: red;
+  visibility: hidden;  /* visibility q esconde no quita, para quitar display: none;*/
+}
+
+.c1{
+  width: 390px;
+background-color: yellow;
+float: left;
+font-size: 1rem;;
+}
+
+.c2{
+  width: 390px;
+  float: right;
+  background-color: orange;
+  font-size: 1rem;
+
+}
+
+h2{
+  font-size: 2rem;
+  font-family: 'Baloo Bhai', cursive;
+}
