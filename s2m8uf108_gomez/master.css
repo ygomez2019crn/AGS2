@@ -1,12 +1,8 @@
-body{
-  background-color: rgb(255, 193, 193);
-}
-
 /*movil vertical*/
 
 @media screen and (max-width:640px) and (orientation:portrait) {
   body{
-    background-color: rgb(164, 126, 245);
+    background-color: blue;
   }
 }
 
@@ -22,7 +18,7 @@ body{
 
 @media screen and (min-width:641px) and (max-width:1200px) {
   body{
-    background-color: blue;
+    background-color: pink;
   }
 }
 
