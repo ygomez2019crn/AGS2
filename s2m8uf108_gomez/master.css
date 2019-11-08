@@ -1,6 +1,8 @@
+/*hola Jordi tinc un viewport superior amb lo qual li posso 700px de maxwidth per veure-lo al meu móbil*/
+
 /*movil vertical*/
 
-@media screen and (max-width:640px) and (orientation:portrait) {
+@media screen and (max-width:700px) and (orientation:portrait) {
   body{
     background-color: blue;
   }
@@ -8,7 +10,7 @@
 
 /*movil apaisat*/
 
-@media screen and (max-width:640px) and (orientation:landscape) {
+@media screen and (max-width:700px) and (orientation:landscape) {
   body{
     background-color: red;
   }
@@ -16,7 +18,7 @@
 
 /*tablet*/
 
-@media screen and (min-width:641px) and (max-width:1200px) {
+@media screen and (min-width:701px) and (max-width:1200px) {
   body{
     background-color: pink;
   }
