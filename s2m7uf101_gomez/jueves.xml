@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="primavera.xsl"?>
+<primavera>
+  <grup>
+    <id>a02</id>
+    <Artista>Antony and the Johnsons</Artista>
+    <Dia>jueves 28 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/antony.jpg</src></image>
+    <Titol>Crazy In Love</Titol>
+    <Descripcio>Antony Hegarty vuelve al festival tras su legendario paso por el Auditori del Parc del Forum en la edición del 2005, un concierto que le confirmó en nuestro país como una estrella de la canción contemporánea. La discografía de este británico afincado en Nueva York contiene obras del calibre de &quot;I Am A Bird Now&quot; o &quot;The Crying Light&quot;, que le han catapultado a convertirse en una de las estrellas de la última década, admirado por personajes como Dennis Hopper, Kate Bush o Lou Reed gracias a una voz que combina el jazz, el soul y los sonidos cabareteros con un tono que le acerca a astros como Nina Simone.</Descripcio>
+    <Disc>“Cut the World” (Rough Trade Records, 2012)</Disc>
+    <Web>http://www.antonyandthejohnsons.com/</Web>
+  </grup>
+
+
+  <grup>
+    <id>a06</id>
+    <Artista>Giant Sand</Artista>
+    <Dia>jueves 28 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/Giant-Sand.jpg</src></image>
+    <Titol>Howe Gelb, gigante del rock americano</Titol>
+    <Descripcio>Ya puede publicar espléndidos trabajos en solitario, aliarse con Raimundo Amador para patentar el country por bulerías o acariciar el cielo del gospel con trabajos como “‘Sno Angel Like You” que, al final, Howe Gelb siempre acaba volviendo a Giant Sand. Ya lo hizo en 2011 para celebrar el 25 aniversario de ese proyecto que le convirtió en uno de los grandes renovadores de la música americana y vuelve a hacerlo ahora que, con la banda transformada en Giant Giant Sand, recupera a algunos de los músicos que le han acompañado durante todos estos años para transformar la frontera mexicana en una gresca de soul, rock sureño, country polvoriento y delicado folk de autor. Una reencarnación musical que el estadounidense llevará al escenario acompañado por una banda de siete músicos.</Descripcio>
+    <Disc>“Tucson” (Fire, 2012)</Disc>
+    <Web>https://myspace.com/giantsand</Web>
+  </grup>
+
+  <grup>
+    <id>a09</id>
+    <Artista>Spiritualized</Artista>
+    <Dia>jueves 28 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/Spiritualized.jpg</src></image>
+    <Titol>La órbita eléctrica de Jason Pierce</Titol>
+    <Descripcio>En plena forma después de publicar “Sweet Heart Sweet Light”, imponente trabajo con el que Jason Pierce recuperó la pulsión eléctrica y el brío psicodélico de sus inicios, Spiritualized siguen alimentando ese mito que nació tras la disolución de Spacemen 3 y que ha acabado por convertirse en referente del rock espacial y del pop fuera de órbita. A punto de cumplirse dos décadas del lanzamiento del imprescibidle “Ladies And Gentlemen We Are Floating In Space” y tras superar no pocos altibajos vitales y emocionales plasmados con todo lujo de detalles en trabajos como “Songs in A&amp;E”, el británico ha encontrado en esa mezcla de rock, gospel, psicodelia, garage y pop el vehículo perfecto para dar salida a sus obsesiones eléctricas.</Descripcio>
+    <Disc>“Sweet Heart Sweet Light” (Fat Possum, 2012)</Disc>
+    <Web>http://spiritualizedharmonies.com</Web>
+  </grup>
+  <grup>
+    <id>a10</id>
+    <Artista>The Black Keys</Artista>
+    <Dia>jueves 28 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/The-Black-Keys.jpg</src></image>
+    <Titol>El blues como camino al éxito</Titol>
+    <Descripcio>Una década después de salir de ese pantano de blues-rock acorazado en el que también habían chapoteado The White Stripes, el dúo formado por Dan Auerbach y Patrick Carney puede presumir de ser una de las bandas más productivas y exitosas que ha dado el rock en los últimos años. Con el blues correoso y oxidado siempre guiando sus pasos, el dúo estadounidense dio un salto de gigante con “Attack &amp; Release”, trabajo producido por Danger Mouse que abrió las puertas a proyectos cada vez más ambiciosos y populares como “Brothers” o “El Camino”. Discos que, además de franquearles la entrada en el Olimpo del rock contemporáneo y de permitirles trabajar con leyendas como Dr. John, han acabado desembocado en “Turn Blue”, trabajo que viene a justificar sobradamente su idilio con los discos de platino, los Grammys y el éxito masivo.</Descripcio>
+    <Disc>“Turn Blue” (Nonesuch, 2014)</Disc>
+    <Web>http://www.theblackkeys.com</Web>
+  </grup>
+
+</primavera>

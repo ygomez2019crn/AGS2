@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="primavera.xsl"?>
+<primavera>
+
+  <grup>
+    <id>a03</id>
+    <Artista>Belle &amp; Sebastian</Artista>
+    <Dia>viernes 29 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/belle.jpg</src></image>
+    <Titol>La institución del indie escocés pierde la vergüenza</Titol>
+    <Descripcio>Tímidos crónicos del pop escocés y creadores exquisitos convertidos en respetada institución del indie, Belle &amp; Sebastian llevan casi una década jugando a sacudirse la vergüenza de encima con discos que, sin abandonar el espíritu de “If You’re Feeling Sinister” y “The Boy With The Arab Strap”, les han abierto las puertas de nuevos horizontes musicales plasmados en trabajos como el jovial “The Life Pursuit” o el melancólico y soleado “Write About Love”. Ahora, cinco años después de su último trabajo y con Stuart Murdoch estrenándose como director de cine con “God Help The Girl”, los de Glasgow regresan con “Girls in Peacetime Want to Dance”, un trabajo que combina el primoroso pop de cámara de siempre con excursiones a la pista de baile como “The Party Line”.</Descripcio>
+    <Disc>“Girls in Peacetime Want to Dance” (Matador, 2015)</Disc>
+    <Web>http://www.belleandsebastian.com</Web>
+  </grup>
+
+  <grup>
+    <id>a08</id>
+    <Artista>Patti Smith &amp; Band perform Horses</Artista>
+    <Dia>viernes 29 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/Patti_Smith_Horses.jpg</src></image>
+    <Titol>La musa del punk celebra el cuarenta aniversario de “Horses”</Titol>
+    <Descripcio>Eterna musa del rock neoyorquino, poetisa de vanguardia e histórica forjadora del punk, al que abrió las puertas antes incluso de que este tomara conciencia de su propia existencia, Patti Smith regresa al festival para medirse al disco que la convirtió en leyenda. Y es que, cuatro décadas después de “Horses”, el debut que marcó a fuego su leyenda y le garantizó una posición privilegiada en la historia del rock, la cantante ha decidido conmemorar la onomástica interpretando en directo y de forma íntegra uno de los hitos de la historia de la música popular. Una oportunidad única para revivir las convulsiones y espasmos eléctricos con los que, de “Gloria” a “Elegy” pasando por “Free Money” y “Break It Up”, Smith cambió la historia acompañada por Lenny Kaye y Jay Dee Daugherty, músicos que aún hoy la acompañan en directo. Un retorno de leyenda para hacer memoria.</Descripcio>
+    <Disc>“Horses” (Arista, 1975)</Disc>
+    <Web>http://www.pattismith.net</Web>
+  </grup>
+
+  <grup>
+    <id>a11</id>
+    <Artista>The New Pornographers</Artista>
+    <Dia>viernes 29 de mayo</Dia>
+    <Lloc>Parc del Fòrum</Lloc>
+    <image><src>img/The_New_Pornographers.jpg</src></image>
+    <Titol>Superpop a la candiense</Titol>
+    <Descripcio>Centrados durante los últimos años en sus carreras en solitario, A.C. Newman, Dan Bejar, Neko Case y compañía reactivan esa precisa y engrasada maquinaria de pop resplandeciente que es The New Pornographers para presentar “Bill Bruisers”, su primer trabajo en cuatro años. Consolidados como supergrupo indie por excelencia, los canadienses retoman así la senda de trabajos como “Mass Romantic”, “Twin Cinema” y “Challengers” con un nuevo disco que es un canto de amor al pop torrencial y colorista; una vitalista postal de power-pop hecho a mano y cargado de deliciosas armonías vocales con el que el combo de Vancouver sigue echando mano de su devoción por Big Star, The Zombies y The Beach Boys y dando rienda suelta a su pasión por las melodías clásicas y los arreglos euforizantes.</Descripcio>º
+    <Disc>“Bill Bruisers” (Matador, 2014)</Disc>
+    <Web>http://www.thenewpornographers.com</Web>
+  </grup>
+  
+</primavera>

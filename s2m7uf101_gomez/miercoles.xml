@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="primavera.xsl"?>
+<primavera>
+  <grup>
+    <id>a01</id>
+    <Artista>Albert Hammond, Jr.</Artista>
+    <Dia>miércoles 27 de mayo</Dia>
+    <Lloc>Parc del Fòrum (concierto gratuito)</Lloc>
+    <image><src>img/Albert_Hammond_Jr_01.jpg</src></image>
+    <Titol>El encanto doméstico más allá de The Strokes</Titol>
+    <Descripcio>La biografía de Albert Hammond Jr. nos habla de un pedigrí familiar (su padre es el célebre compositor británico Albert Hammond) y de una banda, The Strokes, con la que sacudió el rock a finales del siglo pasado, pero también de una carrera en solitario con la que el guitarrista explora los alrededores del pop desde una perspectiva más doméstica y destartalada. “Your’s To Keep”, su debut de 2006, fue una agradable sorpresa y un complemento perfecto a la discografía de los neoyorquinos; un disco repleto de pop y rock clásico al que ha dado continuidad con “¿Cómo Te Llama?” y con el EP “AHJ”, en el que la electricidad efervescente obliga a pensar en Guided By Voices haciendo versiones de los Beach Boys.</Descripcio>
+    <Disc>“AHJ” (Cult Records, 2013)</Disc>
+    <Web>http://www.alberthammondºjr.com</Web>
+  </grup>
+
+  <grup>
+    <id>a04</id>
+    <Artista>Christina Rosenvinge</Artista>
+    <Dia>miércoles 27 de mayo</Dia>
+    <Lloc>Parc del Fòrum (concierto gratuito)</Lloc>
+    <image><src>img/chris.jpg</src></image>
+    <Titol>La serenidad de la canción de autora con pedigrí</Titol>
+    <Descripcio>Con más de tres décadas de carrera a sus espaldas, Christina Rosenvinge es la única artista española que puede presumir de haber sobrevivido al pop adolescente y de haberse convertido en un icono del pop independiente, de la canción de autor jalonada de desencanto y madurez. Con un cancionero que lo mismo echa amarras junto al rock con pedigrí de Sonic Youth que ahonda en el folk confesional, la madrileña echó la vista atrás en 2011 con la antología “Un caso sin resolver”, repaso cronológico en el que cabían desde sus primeros pasos en los platós televisivos a la explosión de talento de trabajos como “Tu labio superior” o “Continental 62”. En silencio discográfico desde que publicó “La joven Dolores” en 2011, Rosenvinge prepara un nuevo disco en el que, como ella misma anunciaba hace unos meses, “hay más electrónica y un sonido más psicodélico”.</Descripcio>
+    <Disc>“Lo Nuestro” (El Segell del Primavera, 2015)</Disc>
+    <Web>http://www.christinarosenvinge.com/</Web>
+  </grup>
+
+</primavera>

@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  overflow-y: hidden;
+  font-family: Futura;
+}
+
+#cartel{
+  width: 40%;
+  height: 500px;
+  float: left;
+}
+
+h2,h3{
+  padding: 0;
+  margin: 0;
+}
+
+#txt{
+  width: 20%;
+  height: 96%;
+  padding: 10px;
+}
+
+#cartel:hover #txt{
+  width: 97.50%;
+  transition: 1s;
+}
+
+#menu{
+  margin: 25 20;
+  text-align: right;
+}
+
+#menu li{
+  display: inline-block;
+  padding:15px 35px 15px 35px;
+  margin: 0;
+  border-right: solid rgb(0, 0, 0);
+  font-family: Futura;
+}
+
+#lateral{
+  list-style: none;
+  float: right;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+#lateral li{
+  border-bottom: solid rgb(0, 0, 0);
+  margin-top: 20px;
+  margin: 0 20px;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Futura;
+}
+
+#menu,#lateral a:hover{
+  color:red;
+}
+
+a{
+  color: black;
+  text-decoration:none;
+}
+
+#info{
+
+
+}
+
+img{
+  width:50%;
+  float: left;
+  margin-left: 240px;
+}
+
+#informacion{
+  background-color: rgb(255, 0, 0, 0.3);
+  display: inline-block;
+  width: 46.9%;
+  margin-left: 240px;
+  padding: 30px;
+}
