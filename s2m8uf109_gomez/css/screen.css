@@ -2,6 +2,8 @@ body{
 
   font-family: 'Kanit', Arial, Helvetica, sans-serif;
   font-size: 1em;
+  font-family: 'Montserrat';
+
 }
 
 .contingut{
@@ -22,14 +24,32 @@ body{
   box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sol{
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: -120px;
-  top: -120px;
-  background-color:rgba(255, 233, 190, 0.25);
-  box-shadow: 0 0 700px 100px rgba(255, 0, 0, 0.25);
-  border-radius: 1000px;
 
+.cap{
+  background-color: #2F4058;
+  position: fixed;
+  width: 100%;
+  height: 82px;
+  left: 0px;
+  top: 0px;
+
+}
+.cos{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 82px;
+  bottom: 0;
+  overflow-y: scroll;
+  }
+
+.peu{
+  background-color: blue;
+}
+
+#titulo{
+
+  font-size: 2em;
+  color: #FFFFFF;
 }
