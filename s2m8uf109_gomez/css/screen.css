@@ -1,0 +1,35 @@
+body{
+
+  font-family: 'Kanit', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.contingut{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.logo{
+  width: 356px;
+  height: 356px;
+  background-color: grey;
+  border-radius: 500px;
+  margin: 300px auto;
+  box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sol{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: -120px;
+  top: -120px;
+  background-color:rgba(255, 233, 190, 0.25);
+  box-shadow: 0 0 700px 100px rgba(255, 0, 0, 0.25);
+  border-radius: 1000px;
+
+}
