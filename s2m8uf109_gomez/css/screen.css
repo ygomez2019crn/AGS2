@@ -16,10 +16,121 @@ body{
   height: 356px;
   background-color: grey;
   border-radius: 500px;
-  margin: 300px auto;
+  margin: 0px auto;
   box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
-
+.contenedorlog{
+  width: 100%;
+  height: 750px;
+  padding-top: 150px;
+}
+.logo2{
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  border-radius: 500px;
+  margin: 0px auto;
+  box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.logo2 p{
+  margin: 0 auto;
+  line-height: 150px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: white;
+}
+#inputusuario{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+#inputusuario p{
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2F4058;
+}
+#personaicon{
+  background-image: url(../img/usericon.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-left: 7px;
+}
+#inputcontraseña{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+#inputcontraseña p{
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2F4058;
+}
+#candadoicon{
+  background-image: url(../img/candadoicon.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-left: 7px;
+}
+.usuariobarra{
+  background-color: #2F4058;
+  height: 2px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50px;
+  border-style: none;
+}
+.botonentrar{
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 250px;
+  height: 40px;
+  background: #FEB904;
+  border-radius: 20.5px;
+}
+.botonentrar p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  border-radius: 20.5px;
+}
+.botonentrar a{
+  text-decoration: none;
+  border-radius: 20.5px;
+  width: 250px;
+  height: 40px;
+}
+#olvidadocontraseña{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #2F4058;
+}
 
 .cap{
   background-color: #2F4058;
@@ -183,7 +294,7 @@ body{
 }
 
 .categoria p{
-line-height: 110px;
+line-height: 100px;
 }
 
 #especial{
