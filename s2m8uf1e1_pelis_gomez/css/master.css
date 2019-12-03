@@ -1,0 +1,198 @@
+body{
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.barrasuperior{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  opacity: 0.5;
+}
+.logo{
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 30px;
+  margin: 5px 20px 5px 20px;
+  display: inline-block;
+  float: left;
+}
+
+.texto{
+  color: #CCC;
+  margin: 0;
+  font-family: Helvetica;
+  float: left;
+  margin-left: 20px;
+}
+.texto p{
+  display: inline-block;
+}
+.textoderecha{
+  float: right;
+  color: #CCC;
+  font-family: Helvetica;
+  margin-right:
+}
+.textoderecha p{
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.titulo{
+  color: #FFF;
+  font-family: Helvetica;
+}
+.titulo h2{
+  margin-top: 10px;
+}
+.contenedor{
+  height: 2000px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contenedorpelicula{
+  width: 175px;
+  color: #CCC;
+  font-family: Helvetica;
+  display: inline-block;
+  margin-right: 20px;
+}
+.contenedorpelicula:hover{
+    opacity: 0.5;
+}
+.contenedorpelicula h3{
+  margin: 0;
+  font-size: 14px;
+}
+.contenedorpelicula p{
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.peliculas{
+  width: 175px;
+  height: 260px;
+  border-radius: 5px;
+  float: left;
+}
+.peliculas:hover{
+  opacity: 0.5;
+}
+.volarizquierda{
+  float: left;
+}
+.volarderecha{
+  float: right;
+}
+#pelicula1{
+  background-image: url(../img/1982Koyaanisqatsi.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula2{
+  background-image: url(../img/2004YTuQueSabes.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula3{
+  background-image: url(../img/2005Earthlings.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula4{
+  background-image: url(../img/2007Helvetica.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula5{
+  background-image: url(../img/2007Sicko.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula6{
+  background-image: url(../img/2008Zeitgeist2.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula7{
+  background-image: url(../img/2009ArtAndCopy.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula8{
+  background-image: url(../img/2009Home.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula9{
+  background-image: url(../img/2009RipARemixManifesto.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula10{
+  background-image: url(../img/2010ComprarTirarComprar.jpg);
+  background-repeat: no-repeat;
+}
+#pelicula11{
+  background-image: url(../img/2010InsideJob.jpg);
+  background-repeat: no-repeat;
+}
+#peliculagris1{
+  background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+#peliculagris2{
+  background-image: url(../img/2012SearchingForSugarMan.jpg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+#peliculagris3{
+  background-image: url(../img/2012TheActOfKilling.jpg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+#peliculagris4{
+  background-image: url(../img/2013ElEspirituDel45.jpg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+#pelicularoja{
+  background-image: url(../img/XXXXpeli.jpg);
+  background-repeat: no-repeat;
+}
+#peliculavista{
+  background-color: rgb(47, 47, 47);
+  background-repeat: no-repeat;
+}
+#serieseguint{
+  background-image: url(../img/XXXXserie.jpg);
+  background-repeat: no-repeat;
+}
+#seriesvista{
+  background-color: grey;
+}
+
+@media screen and (max-width:640px) and (orientation:portrait) {
+  .barrasuperior{
+    width: 100%;
+    height: 3.125rem;
+  }
+  .peliculas{
+    width: 43.5%;
+    border-radius: 5px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 3%;
+  }
+
+  .textoderecha{
+    display: none;
+  }
+  .contenedorpelicula h3{
+    font-size: 0.5rem;
+  }
+  .contenedorpelicula p{
+    font-size: 0.6364rem;
+  }
+  .titulo{
+    font-size:1rem;
+  }
+
+}
