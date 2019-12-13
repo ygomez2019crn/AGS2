@@ -1,50 +1,64 @@
-body{
+body {
   user-select: none;
- }
+}
 
-.contingut{
+.contingut {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
 }
 
-.logo{
-  width: 356px;
-  height: 356px;
-  background-color: grey;
-  border-radius: 500px;
-  margin: 0px auto;
-  box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+.logo {
+  background-image:url(../img/logo.svg);
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
-.contenedorlog{
+.contingut p{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 4em;
+  font-weight: 600;
+  color: #1E1E1E;
+}
+
+.contenedorlog {
   width: 100%;
   height: 750px;
-  padding-top: 150px;
+
 }
-.logo2{
-  width: 150px;
+
+.logo2 {
+  background-image:url(../img/logo.svg);
   height: 150px;
-  background-color: grey;
-  border-radius: 500px;
-  margin: 0px auto;
-  box-shadow: inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
-.logo2 p{
+#textologo{
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #1E1E1E;
+  margin: 0;
+}
+.logo2 p {
   margin: 0 auto;
   line-height: 150px;
   font-family: Montserrat;
   font-weight: 500;
   color: white;
 }
-#inputusuario{
+
+#inputusuario {
   width: 250px;
   margin: 0 auto;
   margin-top: 65px;
 }
-#inputusuario p{
+
+#inputusuario p {
   display: inline-block;
   float: left;
   margin: 0;
@@ -56,7 +70,8 @@ body{
   font-size: 20px;
   color: #2F4058;
 }
-#personaicon{
+
+#personaicon {
   background-image: url(../img/usericon.svg);
   height: 20px;
   width: 20px;
@@ -66,12 +81,14 @@ body{
   margin: 0;
   margin-left: 7px;
 }
-#inputcontraseña{
+
+#inputcontraseña {
   width: 250px;
   margin: 0 auto;
   margin-top: 35px;
 }
-#inputcontraseña p{
+
+#inputcontraseña p {
   display: inline-block;
   float: left;
   margin: 0;
@@ -83,7 +100,8 @@ body{
   font-size: 20px;
   color: #2F4058;
 }
-#candadoicon{
+
+#candadoicon {
   background-image: url(../img/candadoicon.svg);
   height: 20px;
   width: 20px;
@@ -93,7 +111,8 @@ body{
   margin: 0;
   margin-left: 7px;
 }
-.usuariobarra{
+
+.usuariobarra {
   background-color: #2F4058;
   height: 2px;
   width: 250px;
@@ -101,7 +120,8 @@ body{
   border-radius: 50px;
   border-style: none;
 }
-.botonentrar{
+
+.botonentrar {
   margin: 0 auto;
   margin-top: 70px;
   width: 250px;
@@ -109,7 +129,8 @@ body{
   background: #FEB904;
   border-radius: 20.5px;
 }
-.botonentrar p{
+
+.botonentrar p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -118,13 +139,15 @@ body{
   color: #FFFFFF;
   border-radius: 20.5px;
 }
-.botonentrar a{
+
+.botonentrar a {
   text-decoration: none;
   border-radius: 20.5px;
   width: 250px;
   height: 40px;
 }
-#olvidadocontraseña{
+
+#olvidadocontraseña {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -132,7 +155,7 @@ body{
   color: #2F4058;
 }
 
-.cap{
+.cap {
   background-color: #2F4058;
   position: fixed;
   width: 100%;
@@ -141,7 +164,8 @@ body{
   top: 0px;
   z-index: 10;
 }
-.cos{
+
+.cos {
   width: 100%;
   position: absolute;
   right: 0;
@@ -150,11 +174,11 @@ body{
   bottom: 0;
 }
 
-.peu{
+.peu {
   background-color: blue;
 }
 
-#burger{
+#burger {
   position: fixed;
   left: 15px;
   top: 10px;
@@ -162,8 +186,7 @@ body{
   font-size: 2.5em;
 }
 
-
-#titulo{
+#titulo {
   position: fixed;
   top: 20px;
   left: 65px;
@@ -175,7 +198,7 @@ body{
   color: #FFFFFF;
 }
 
-.camareros{
+.camareros {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -185,66 +208,50 @@ body{
   margin-right: 70px;
   color: black;
   padding-top: 20px;
- }
+}
 
-.cam{
+.cam {
   margin-top: 20px;
   margin-bottom: 20px;
   display: inline-block;
 }
 
-.iconofoto{
+.iconofoto {
   width: 50px;
   height: 50px;
-  border: solid 2px;
+  border: solid 1.5px;
   border-radius: 100px;
   display: inline-block;
   float: right;
   margin-top: 10px;
-  text-align: center;
+  background-image: url(../img/fotocamarero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.iconofoto p{
-  margin: 0 auto;
-  margin-top: 23px;
-  width: 50px;
-  height: 4px;
-  background-color: black;
-  transform: rotate(45deg)
-}
-
-.iconofoto h1{
-  margin: 0 auto;
-  margin-top: -4px;
-  width: 50px;
-  height: 4px;
-  background-color: black;
-  transform: rotate(-45deg)
-}
-
-.camareros hr{
+.camareros hr {
   background-color: black;
   height: 2px;
   margin-top: 20px;
 }
 
-.cap .iconofoto{
+.cap .iconofoto {
   margin-right: 30px;
   background-color: white;
 }
 
-.camareros a{
+.camareros a {
   width: 100%;
   height: 100%;
 }
 
-.contenedormesas{
+.contenedormesas {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-.mesas{
+.mesas {
   width: 100%;
   height: 90px;
   background: #FEB904;
@@ -260,26 +267,26 @@ body{
   font-style: normal;
 }
 
-.mesas a{
+.mesas a {
   width: 100%;
   height: 100%;
   color: white;
   text-decoration: none;
 }
 
-.mesas a p{
+.mesas a p {
   width: 100%;
   height: 100%;
   line-height: 95px;
 }
 
-.contenedorcategorias{
+.contenedorcategorias {
   width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-.categoria{
+.categoria {
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -290,24 +297,23 @@ body{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   vertical-align: middle;
-
 }
 
-.categoria p{
-line-height: 100px;
+.categoria p {
+  line-height: 100px;
 }
 
-#especial{
+#especial {
   padding-top: 35px;
   line-height: 20px;
   height: 75px;
 }
 
-.categoria a{
+.categoria a {
   text-decoration: none;
 }
 
-.categoria a p{
+.categoria a p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -319,25 +325,25 @@ line-height: 100px;
   border-radius: 10px;
 }
 
-.contenedorpreciototal{
+.contenedorpreciototal {
   width: 100%;
   height: 170px;
   position: fixed;
   background: white;
 }
 
-#euros{
+#euros {
   margin-left: 12%;
   margin-top: 40px;
 }
 
-#numero{
+#numero {
   float: right;
   margin-right: 12%;
   margin-top: 40px;
 }
 
-.preciototal{
+.preciototal {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -346,7 +352,7 @@ line-height: 100px;
   display: inline-block;
 }
 
-.contenedorpreciototal hr{
+.contenedorpreciototal hr {
   width: 77%;
   margin: 0 auto;
   margin-top: 50px;
@@ -354,21 +360,21 @@ line-height: 100px;
   background-color: black;
 }
 
-.contenedorcosas{
+.contenedorcosas {
   width: 75%;
   margin: 0 auto;
   margin-top: 200px;
   margin-bottom: 130px;
 }
 
-.items{
+.items {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.items p{
+.items p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -376,16 +382,16 @@ line-height: 100px;
   color: #000000;
 }
 
-.cuantositems{
+.cuantositems {
   display: inline-block;
 }
 
-.precio{
+.precio {
   display: inline-block;
   float: right;
 }
 
-.int{
+.int {
   display: none;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -398,27 +404,31 @@ line-height: 100px;
   padding-left: 10px;
 }
 
-#itm1:hover ~ #interior1 {
-  display: block;
-}
-#itm2:hover ~ #interior2 {
-  display: block;
-}
-#itm3:hover ~ #interior3 {
-  display: block;
-}
-#itm4:hover ~ #interior4 {
-  display: block;
-}
-#itm5:hover ~ #interior5 {
+#itm1:hover~#interior1 {
   display: block;
 }
 
-.int:hover{
+#itm2:hover~#interior2 {
   display: block;
 }
 
-.mas,.menos{
+#itm3:hover~#interior3 {
+  display: block;
+}
+
+#itm4:hover~#interior4 {
+  display: block;
+}
+
+#itm5:hover~#interior5 {
+  display: block;
+}
+
+.int:hover {
+  display: block;
+}
+
+.mas, .menos {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -427,17 +437,17 @@ line-height: 100px;
   text-align: center;
 }
 
-.mas:hover, .menos:hover{
+.mas:hover, .menos:hover {
   background-color: red;
 }
 
-.barrita{
+.barrita {
   width: 100%;
   height: 2px;
   background-color: black;
 }
 
-.pedir{
+.pedir {
   background-color: #FEB904;
   height: 100px;
   position: fixed;
@@ -446,17 +456,36 @@ line-height: 100px;
   right: 0;
 }
 
-.pedir p{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 100px;
-text-align: center;
-letter-spacing: 0.4em;
-color: #FFFFFF;
+.pedir p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;
 }
 
-.pedir a{
+.pedir a {
+  text-decoration: none;
+}
+.añadirmas{
+  width: 100%;
+  height: 70px;
+  background: #2F4058;
+  text-align: center;
+  border-radius: 20.5px;
+}
+.añadirmas p{
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 70px;
+  letter-spacing: 0.4em;
+}
+.añadirmas a{
   text-decoration: none;
 }
