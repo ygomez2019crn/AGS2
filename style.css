@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 199, 150);
+    background-image: url(http://pa1.narvii.com/6718/86e6473ccdc4cfefcb427d96def5cf6917d481f4_00.gif);
+    
+    background-repeat: repeat-x;
+    background-size: 400px;
+}
+
+#galleta{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: url(img/galleta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.05s;
+}
+
+#galleta:active{
+    transform: scale(1.2);
+    transition: 0.05s;
+}
+
+#numeros{
+    font-size: 40px;
+    text-align: center;
+}

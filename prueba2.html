@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aburrido?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="texto1">Pastelería de la abuela congelada</div>
+    <div id="galleta" onClick="clicksGalleta()"></div>
+    <p id="numeros">0</p>
+
+    <button onClick="fabriaviejas()">Abuelas</button>
+    <p>Galletas horneadas por abuelas: <span id="numeros2">0</span> Galletas</p>
+    <p>Coste de la siguiente abuela: <span id="coste">10</span> Galletas</p>
+
+
+    <script>
+        var numGalletas = 0;
+        var abuelas = 0;
+        var sube1 = setInterval(clicks1, 1000);
+        var tick = setInterval(ticks, 1);
+        var incremento = 1.15;
+        var pabuelas = 10;
+
+        function ticks() {
+            numGalletas = Math.round(numGalletas);
+            document.getElementById("numeros").innerHTML = comas(numGalletas);
+            if (numGalletas < 0) {
+                numGalletas == 0;
+                document.getElementById("numeros").innerHTML = 0;
+            }
+        }
+
+        function clicksGalleta() {
+            numGalletas += 1;
+            document.getElementById("numeros").innerHTML = Math.round(comas(numGalletas));
+        }
+
+        function clicks1() {
+            numGalletas = numGalletas + abuelas;
+            document.getElementById("numeros").innerHTML = Math.round(comas(numGalletas));
+
+        }
+
+        function fabriaviejas() {
+            if (numGalletas < pabuelas) {
+                document.getElementById("texto1").innerHTML = "NO TIENES SUFICIENTE";
+            }
+            else {
+                numGalletas = numGalletas - pabuelas;
+                pabuelas = pabuelas * 1.1;
+                abuelas += 1;
+                document.getElementById("coste").innerHTML = Math.round(pabuelas);
+                document.getElementById("numeros").innerHTML = comas(numGalletas);
+                document.getElementById("numeros2").innerHTML = Math.round(abuelas);
+                document.getElementById("texto1").innerHTML = "Has comprado 1 una abuela";
+                sube1;
+            }
+        }
+
+        function comas(num) {
+            return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+        }
+
+    </script>
+</body>
+
+</html>
