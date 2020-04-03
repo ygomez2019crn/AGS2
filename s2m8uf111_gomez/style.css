@@ -1,0 +1,94 @@
+.petal{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: green;
+  transform: rotate(0deg);
+  border-radius: 0 90px;
+  border: solid 1px lime;
+  animation: aniflor 2s infinite alternate;
+}
+
+.flor{
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 200px;
+  position: absolute;
+  animation: rotacion 0.1s infinite;
+  transform-origin: center center;
+  animation-timing-function: linear;
+}
+
+#p1{
+
+}
+
+#p2{
+  transform: rotate(30deg);
+  transform-origin: right bottom;
+}
+#p3{
+  transform: rotate(60deg);
+  transform-origin: right bottom;
+}
+#p4{
+  transform: rotate(90deg);
+  transform-origin: right bottom;
+}
+#p5{
+  transform: rotate(120deg);
+  transform-origin: right bottom;
+}
+#p6{
+  transform: rotate(150deg);
+  transform-origin: right bottom;
+}
+#p7{
+  transform: rotate(180deg);
+  transform-origin: right bottom;
+}
+#p8{
+  transform: rotate(210deg);
+  transform-origin: right bottom;
+}
+#p9{
+  transform: rotate(240deg);
+  transform-origin: right bottom;
+}
+#p10{
+  transform: rotate(270deg);
+  transform-origin: right bottom;
+}
+#p11{
+  transform: rotate(300deg);
+  transform-origin: right bottom;
+}
+#p12{
+  transform: rotate(330deg);
+  transform-origin: right bottom;
+}
+
+#cor{
+  width: 60px;
+  height: 60px;
+  background: orange;
+  border-radius: 50%;
+  left: 75px;
+  top: 75px;
+  position: absolute;
+}
+
+@keyframes aniflor {
+  0%{
+    background: green;
+  }
+  100%{
+    background: pink;
+  }
+}
+
+@keyframes rotacion {
+  0%{transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}

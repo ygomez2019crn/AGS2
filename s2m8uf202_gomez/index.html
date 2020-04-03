@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul{
+            width: 960px;
+            margin: auto;
+        }
+        li{ 
+            height: 420px;
+            width: 170px;
+            margin: 4px;
+            display: block;
+            float: left;
+            font-size: 14px;
+            
+            background: linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), linear-gradient(45deg, rgba(0, 0, 0, 0.0980392) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 0.0980392) 0), white;
+            background-position: 0px 0, 5px 5px;
+            background-size: 10px 10px, 10px 10px;
+        }
+
+        h1{
+            border: 10px solid turquoise;
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            background: navy;
+            color: turquoise;
+            line-height: 100px;
+            font-size: 72px;
+        }
+        #desenfocar{
+            -webkit-filter: blur(5px);
+        }
+        #gris{
+            -webkit-filter: grayscale(0.5);
+        }
+        #ombra{
+            -webkit-filter: drop-shadow(5px 5px 5px);
+        }
+        #sepia{
+            -webkit-filter: sepia(0.5);
+        }
+        #lluminositat{
+            -webkit-filter: brightness(1);
+        }
+        #contrast{
+            -webkit-filter: contrast(1);
+        }
+        #to{
+            -webkit-filter: hue-rotate(50deg);
+        }
+        #invertir{
+            -webkit-filter: invert(1);
+        }
+        #saturacio{
+            -webkit-filter: saturate(1);
+        }
+        #opacitat{
+            -webkit-filter: opacity(50%);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Ps</h1>
+    <ul>
+        <li class="efectes desenfocar">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="desenfocar">
+            <h2>Desenfocar</h2>
+            <input type="range" id="filtro1">
+            <p></p>
+        </li>
+        <li class="efectes gris">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="gris">
+            <h2>Gris</h2>
+            <input type="range" id="filtro2">
+            <p></p>
+        </li>
+        <li class="efectes ombra">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="ombra">
+            <h2>Ombra paral·lela</h2>
+            <input type="range" id="filtro3">
+            <p></p>
+        </li>
+        <li class="efectes sepia">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="sepia">
+            <h2>Sepia</h2>
+            <input type="range" id="filtro4">
+            <p></p>
+        </li>
+        <li class="efectes lluminositat">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="lluminositat">
+            <h2>Lluminositat</h2>
+            <input type="range" id="filtro5">
+            <p></p>
+        </li>
+        <li class="efectes contrast">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="contrast">
+            <h2>Contrast</h2>
+            <input type="range" id="filtro6">
+            <p></p>
+        </li>
+        <li class="efectes to">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="to">
+            <h2>To</h2>
+            <input type="range" id="filtro7">
+            <p></p>
+        </li>
+        <li class="efectes invertir">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="invertir">
+            <h2>Invertir</h2>
+            <input type="range" id="filtro8">
+            <p></p>
+        </li>
+        <li class="efectes satura">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="saturacio">
+            <h2>Saturació</h2>
+            <input type="range" id="filtro9">
+            <p></p>
+        </li>
+        <li class="efectes opacitat">
+            <img src="https://www.stickpng.com/assets/images/590600cc0cbeef0acff9a62e.png" width="100%" alt="" id="opacitat">
+            <h2>Opacitat</h2>
+            <input type="range" id="filtro10">
+            <p></p>
+        </li>
+    </ul>
+
+    <script>
+    
+    document.getElementById("filtro1").addEventListener('input' ,Myfunction1);
+    document.getElementById("filtro2").addEventListener('input' ,Myfunction2);
+    document.getElementById("filtro3").addEventListener('input' ,Myfunction3);
+    document.getElementById("filtro4").addEventListener('input' ,Myfunction4);
+    document.getElementById("filtro5").addEventListener('input' ,Myfunction5);
+    document.getElementById("filtro6").addEventListener('input' ,Myfunction6);
+    document.getElementById("filtro7").addEventListener('input' ,Myfunction7);
+    document.getElementById("filtro8").addEventListener('input' ,Myfunction8);
+    document.getElementById("filtro9").addEventListener('input' ,Myfunction9);
+    document.getElementById("filtro10").addEventListener('input' ,Myfunction10);
+
+
+    function Myfunction1(){
+        document.getElementById('desenfocar').style.filter = "blur("+filtro1.value+"px)";
+    }
+    function Myfunction2(){
+        document.getElementById('gris').style.filter = "grayscale("+filtro2.value+"%)";
+    }
+    function Myfunction3(){
+        document.getElementById('ombra').style.filter = "drop-shadow("+filtro3.value+"px "+filtro3.value+"px )";
+    }
+    function Myfunction4(){
+        document.getElementById('sepia').style.filter = "sepia("+filtro4.value+"%)";
+    }
+    function Myfunction5(){
+        document.getElementById('lluminositat').style.filter = "brightness("+filtro5.value+"%)";
+    }
+    function Myfunction6(){
+        document.getElementById('contrast').style.filter = "contrast("+filtro6.value+"%)";
+    }
+    function Myfunction7(){
+        document.getElementById('to').style.filter = "hue-rotate("+filtro7.value+"deg)";
+    }
+    function Myfunction8(){
+        document.getElementById('invertir').style.filter = "invert("+filtro8.value+"%)";
+    }
+    function Myfunction9(){
+        document.getElementById('saturacio').style.filter = "saturate("+filtro9.value+"%)";
+    }
+    function Myfunction10(){
+        document.getElementById('opacitat').style.filter = "opacity("+filtro10.value+"%)";
+    }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
