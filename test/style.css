@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #2EDA94;
+    width: 100%;
+    height: 75px;
+}
+#filtro{
+    width: 85%;
+    height: 30px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.tarjeta{
+    background-color: aqua;
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.imagen{
+    background-color: red;
+    width: 225px;
+    height: 160px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* link imagenes
+
+#platano{
+    background-image: url(img/platano.jpg);
+    background-size: cover;
+}
+#manzana{
+    background-image: url(img/manzana.jpg);
+    background-size: cover;
+}
+#mandarina{
+    background-image: url(img/mandarina.jpg);
+    background-size: cover;
+}
+#fresa{
+    background-image: url(img/fresa.jpg);
+    background-size: cover;
+}
+#tomate{
+    background-image: url(img/tomate.jpg);
+    background-size: cover;
+}
+#kiwi{
+    background-image: url(img/kiwi.jpg);
+    background-size: cover;
+}
+
+*/
